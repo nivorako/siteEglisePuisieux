@@ -12,8 +12,11 @@ li{
     list-style-type: none;
 }
 
-.logo{
-    
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: white;
 }
 
 .nav-links{
