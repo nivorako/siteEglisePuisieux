@@ -2,25 +2,44 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: end;
-    color: whitesmoke;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 5px rgb(241, 234, 234);
     width: 100vw;
     height: 100px;
 }
 
-li{
-    list-style-type: none;
-}
-
 a{
-    color: whitesmoke;
+    padding-bottom: 10px;
+    color: #7c005A;
 }
 a:hover{
-    color: white;
+    color:  #7C005A;
 }
 
 .nav-links{
+    color: #7C005A;
     width: 80%;
     display: flex;
     justify-content: space-around;
+}
+
+.dropdown-content{
+    padding-top: 25px;
+    margin-left: -20px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown-content a{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #f3edf0;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }

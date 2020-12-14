@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Title from './components/title'
 import Logo from './components/logo'
-import Bg from './assets/bg1.jpg'
+import Bg from './assets/bg2.jpg'
 import BoutonGroup from './components/boutonGroup'
    
 export default class Header extends Component{

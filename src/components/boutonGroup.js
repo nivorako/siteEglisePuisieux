@@ -8,12 +8,22 @@ function boutonGroup() {
                 <div className="logo">
                     <h3><a href="./contenu1">ACCUEIL</a></h3>
                 </div>
-                <ul className="nav-links">
-                    <li><a href="./contenu2">Les Sections</a></li>
-                    <li><a>Historique</a></li>
-                    <li><a>Vie de l'Eglise</a></li>
-                    <li><a>Contacter nous</a></li>
-                </ul>
+                <div className="nav-links">
+                    <div className='dropdown'>
+                        <a href="#">Sections</a>
+                        <div className="dropdown-content">
+                            <a href="#">Ecole du dimanche</a>
+                            <a href="#">Jeunes chrétiens</a>
+                            <a href="#">Femmes chrétiennes</a>
+                            <a href="#">Hommes chrétiens</a>
+                            <a href="#">Chorale</a>
+                            <a href="#">Musique</a>
+                        </div>
+                    </div>
+                    <a href="#">Historiques</a>
+                    <a href="#">La vie de l 'Eglise</a>
+                    <a href="#">Contactez nous</a>
+                </div>
             </nav>
         </div>
     )

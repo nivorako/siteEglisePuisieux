@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 const titleStyle = {
-    textShadow: "3px 3px 5px black",
+    textShadow: "3px 3px 5px white",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     height: "250px",
-    color: "whitesmoke",
+    color: "#7C005A",
 }
 
 export default class Title extends Component{
