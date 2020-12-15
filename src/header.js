@@ -12,7 +12,9 @@ export default class Header extends Component{
                 height:"50vh",
                 backgroundImage:`url(${Bg})`,
                 backgroundSize: "Cover",
-                backgroundRepeat: "no-repeat"
+                backgroundRepeat: "no-repeat",
+                marginLeft:"-15px",
+                marginRight:"-15px"
             }}>
                 <div className="row">
                     <div className='col-2'>

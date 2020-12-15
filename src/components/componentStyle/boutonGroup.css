@@ -13,11 +13,6 @@ button{
     color: #7C005A;
 }
 
-a:hover{
-    text-decoration: none;
-    box-shadow: 3px 3px 5px black;
-}
-
 .dropdown-content{
     padding-top: 10px;
     margin-left: -20px;
@@ -30,7 +25,7 @@ a:hover{
     margin-top: 10px;
     padding-left: 10px;
     color: #7C005A;
-    background-color: #f3edf0;
+    background-color: #cbd8f6;
     border-radius: 10px;
     height: 50px;
     width: 250px;
@@ -38,6 +33,14 @@ a:hover{
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
+}
+.dropdown-content a:hover{
+    background-color: #6f7c9a;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px black;
 }
 .dropdown:hover .dropdown-content{
     display: block;

@@ -1,0 +1,18 @@
+.info{
+    height: 110vh;
+}
+.info p{
+    color: #7C005A;
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 10px ;
+    background-color: #cbd8f6;
+}
+.info  p:hover{
+    background-color: #6f7c9a;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px black;
+}

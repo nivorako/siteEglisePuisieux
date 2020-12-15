@@ -3,14 +3,14 @@ import './componentStyle/boutonGroup.css'
 
 function BoutonGroup() {
     return (    
-            <nav>               
-                <button href="./contenu1">ACCUEIL</button>
+            <nav>  
+                <a href="/contenu1"><button>ACCUEIL</button></a>             
                 <div className='dropdown'>
                     <button href="#">Sections</button>
                     <div className="dropdown-content">
-                        <a href="#">Ecole du dimanche</a>
-                        <a href="#">Jeunes chrétiens</a>
-                        <a href="#">Femmes chrétiennes</a>
+                        <a href="./ecoleDim">Ecole du dimanche</a>
+                        <a href="./contenu2">Jeunes chrétiens</a>
+                        <a href="">Femmes chrétiennes</a>
                         <a href="#">Hommes chrétiens</a>
                         <a href="#">Chorale</a>
                         <a href="#">Musique</a>
@@ -22,11 +22,11 @@ function BoutonGroup() {
                         <a href="#">ConfCall Biblique</a>
                         <a href="#">Programme du dimanche</a>
                         <a href="#">Zavatra Hafa</a>
-                        <a href="#">Fenoy ny Banga</a>
+                        <a href="">Fenoy ny Banga</a>
                     </div>
                 </div>
                 <button href="#">Historiques</button>
-                <button href="#">Contactez nous</button>
+                <button href="">Contactez nous</button>
             </nav>
     )
 }
