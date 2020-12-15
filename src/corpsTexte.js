@@ -5,7 +5,7 @@ import Contenu_2 from './components/contenu2'
 import Info from "./components/info"
 
 const contenuStyle = {
-    height: "100vh"
+    height: "110vh"
 }
 
 function CorpsTexte() {

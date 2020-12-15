@@ -1,12 +1,12 @@
 import React from 'react'
 import './componentStyle/boutonGroup.css'
 
-function boutonGroup() {
+function BoutonGroup() {
     return (
         <div>
             <nav>
                 <div className="logo">
-                    <h3><a href="./contenu1">ACCUEIL</a></h3>
+                    <a href="./contenu1">ACCUEIL</a>
                 </div>
                 <div className="nav-links">
                     <div className='dropdown'>
@@ -29,4 +29,4 @@ function boutonGroup() {
     )
 }
 
-export default boutonGroup
+export default BoutonGroup
