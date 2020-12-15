@@ -7,28 +7,19 @@ nav{
     height: 100px;
 }
 
-nav div a{
+button{
     width: 200px;
-    transition: all 1s;
-    padding-bottom: 10px;
-    color: #7c005A;
-}
-a:hover{
     border-radius: 10px;
-    box-shadow: 3px 3px 5px black;
-    text-decoration: none;
-    color:  #7C005A;
+    color: #7C005A;
 }
 
-.nav-links{
-    color: #7C005A;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
+a:hover{
+    text-decoration: none;
+    box-shadow: 3px 3px 5px black;
 }
 
 .dropdown-content{
-    padding-top: 25px;
+    padding-top: 10px;
     margin-left: -20px;
     display: none;
     position: absolute;
@@ -36,10 +27,13 @@ a:hover{
 }
 .dropdown-content a{
     padding-top: 10px;
+    margin-top: 10px;
     padding-left: 10px;
+    color: #7C005A;
     background-color: #f3edf0;
+    border-radius: 10px;
     height: 50px;
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: start;
