@@ -4,7 +4,7 @@ import './componentStyle/boutonGroup.css'
 function BoutonGroup() {
     return (    
             <nav>  
-                <a href="/contenu1"><button>ACCUEIL</button></a>             
+                <a href="./"><button>ACCUEIL</button></a>             
                 <div className='dropdown'>
                     <button href="#">Sections</button>
                     <div className="dropdown-content">
