@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Acceuil from './pages/acceuil'
-import Contenu2 from './components/contenu2'
-import EcoleDim from './components/ecoleDim'
+import Jeunes from './pages/jeunes'
+import EcoleD from './pages/ecoleD'
+import Femmes from './pages/femmes'
 import Info from "./components/info"
 
 const contenuStyle = {
@@ -16,8 +17,9 @@ function CorpsTexte() {
                     <Router>
                         <Switch>
                             <Route exact path="/" component={Acceuil}/>
-                            <Route path="/ecoleDim" component={EcoleDim}/>
-                            <Route path="/contenu2" component={Contenu2}/>
+                            <Route path="/ecoleD" component={EcoleD}/>
+                            <Route path="/jeunes" component={Jeunes}/>
+                            <Route path="/femmes" component={Femmes}/>
                         </Switch>  
                     </Router>  
                 </div>
