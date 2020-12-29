@@ -5,8 +5,8 @@ function Acceuil() {
     return (
         <div className="contenu1">
             <div className="row contenu1First">
-                <div className="col-4">
-                    <h1>NOTRE CULTE :</h1>
+                <div className="col-5">
+                    <h1>PROCHAIN  CULTE :</h1>
                 </div>
                 <div className="col annonce">
                     <h1>Ce Dimanche 22 Décembre</h1> 
