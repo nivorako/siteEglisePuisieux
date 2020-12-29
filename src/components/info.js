@@ -4,11 +4,11 @@ import './componentStyle/info.css'
 function Info() {
     return (
         <div className="info mt-4">
-            <p >ici info</p>
-            <p >otre info</p>
-            <p >plein d info</p>
-            <p >trop d info</p>
-            <p >tue l info</p>
+            <p >les membres</p>
+            <p >Le bureau</p>
+            <p >les diacres</p>
+            <p >Le pasteur</p>
+            <p >les évènements</p>
             
         </div>
     );

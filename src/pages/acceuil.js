@@ -5,8 +5,8 @@ function Acceuil() {
     return (
         <div className="contenu1">
             <div className="row contenu1First">
-                <div className="col-4">
-                    <h1>NOTRE CULTE :</h1>
+                <div className="col-5">
+                    <h1>PROCHAIN  CULTE :</h1>
                 </div>
                 <div className="col annonce">
                     <h1>Ce Dimanche 22 Décembre</h1> 
@@ -18,10 +18,10 @@ function Acceuil() {
                 </div>
             </div>
             <div className="row annoncePasteur">
-                <h2>Reflexion du jour</h2>
-                <h2>Pericope</h2>
-                <h2>Edito du Pasteur</h2>
-                <h2>Diary</h2>
+                <a href="#">Reflexion du jour</a>
+                <a href="#">Pericope</a>
+                <a href="#">Edito du Pasteur</a>
+                <a href="#">Diary</a>
             </div>    
         </div>
     )

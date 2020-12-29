@@ -4,6 +4,10 @@ import Acceuil from './pages/acceuil'
 import Jeunes from './pages/jeunes'
 import EcoleD from './pages/ecoleD'
 import Femmes from './pages/femmes'
+import Hommes from './pages/hommes'
+import Musik from './pages/musik'
+import Chorale from './pages/chorale'
+import ConfCall from './pages/confCall'
 import Info from "./components/info"
 
 const contenuStyle = {
@@ -20,6 +24,10 @@ function CorpsTexte() {
                             <Route path="/ecoleD" component={EcoleD}/>
                             <Route path="/jeunes" component={Jeunes}/>
                             <Route path="/femmes" component={Femmes}/>
+                            <Route path="/hommes" component={Hommes}/>
+                            <Route path="/musik" component={Musik}/>
+                            <Route path="/chorale" component={Chorale}/>
+                            <Route path="/confCall" component={ConfCall}/>
                         </Switch>  
                     </Router>  
                 </div>
