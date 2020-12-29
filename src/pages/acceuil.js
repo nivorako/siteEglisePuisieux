@@ -18,10 +18,10 @@ function Acceuil() {
                 </div>
             </div>
             <div className="row annoncePasteur">
-                <a href="#">Reflexion du jour</a>
-                <a href="#">Pericope</a>
-                <a href="#">Edito du Pasteur</a>
-                <a href="#">Diary</a>
+                <a href="./reflexion">Reflexion du jour</a>
+                <a href="./pericope">Pericope</a>
+                <a href="./edito">Edito du Pasteur</a>
+                <a href="./diary">Diary</a>
             </div>    
         </div>
     )

@@ -20,9 +20,9 @@ function BoutonGroup() {
                     <button href='#'>Vie d'Eglise</button>           
                     <div className="dropdown-content">
                         <a href="./confCall">ConfCall Biblique</a>
-                        <a href="#">Programme du dimanche</a>
-                        <a href="#">Zavatra Hafa</a>
-                        <a href="#">Fenoy ny Banga</a>
+                        <a href="./lieu">Lieu de culte</a>
+                        <a href="./projet">Projet d'église</a>
+                        <a href="./reglement">Règlement interieur</a>
                     </div>
                 </div>
                 <a href="#"><button>Historiques</button></a>
