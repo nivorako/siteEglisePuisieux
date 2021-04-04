@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+/* debut header */
+.header{
+
+  z-index: 1;
+}
+
+/* debut footer */
+.footer{
+  height: 50vh;
+  background-color: #cbd8f6;
+}
+
+.plan a{
+  width: 200px;
+  color: black;
+}
+.plan a:hover{
+  background-color: #0a141f;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}

@@ -7,7 +7,7 @@ import BoutonGroup from './components/boutonGroup'
 export default class Header extends Component{
     render(){
         return(
-            <div style={{
+            <div className="header" style={{
                 fontFamily: "serif",
                 height:"50vh",
                 backgroundImage:`url(${Bg})`,

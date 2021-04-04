@@ -1,7 +1,7 @@
 import React from 'react'
-import './components/css/App.css'
+import './components/css/app.css'
 import Header from './header'
-import CorpsTexte from './corpsTexte'
+import Home from './home'
 import Footer from './footer'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <div className='container-fluid'>
         <Header />
-        <CorpsTexte />
+        <Home />
         <Footer />
       </div>
     </div>

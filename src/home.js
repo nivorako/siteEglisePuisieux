@@ -24,7 +24,7 @@ const contenuStyle = {
     height: "110vh"
 }
 
-function CorpsTexte() {
+function Home() {
     return (
             <div className="row corpsTexte">
                 <div className="col contenu" style={contenuStyle}>
@@ -58,4 +58,4 @@ function CorpsTexte() {
     )
 }
  
-export default CorpsTexte
+export default Home;
