@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Acceuil from './pages/acceuil'
+import Acceuil from './pages/home'
 import Jeunes from './pages/jeunes'
 import EcoleD from './pages/ecoleD'
 import Femmes from './pages/femmes'

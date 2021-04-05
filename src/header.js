@@ -7,24 +7,16 @@ import BoutonGroup from './components/boutonGroup'
 export default class Header extends Component{
     render(){
         return(
-            <div className="header" style={{
-                fontFamily: "serif",
-                height:"50vh",
-                backgroundImage:`url(${Bg})`,
-                backgroundSize: "Cover",
-                backgroundRepeat: "no-repeat",
-                marginLeft:"-15px",
-                marginRight:"-15px"
-            }}>
-                <div className="row">
-                    <div className='col-2'>
+            <div className="header">
+                <div className="header__title">
+                    <div className='title__logo'> 
                         <Logo /> 
                     </div>
-                    <div className='col'>
+                    <div className='title__title'>
                         <Title />
                     </div>
                 </div>
-                <div className="row">
+                <div className="header__button">
                    <BoutonGroup />
                 </div>
             </div>

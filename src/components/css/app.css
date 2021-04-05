@@ -3,10 +3,25 @@
   height: 100%;
 }
 
+
 /* debut header */
 .header{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "serif";
+  height:"50vh";
+  background-image:url("../../assets/bg2.jpg");
+  background-size: Cover;
+  background-repeat: "no-repeat";
+  margin-left:-1rem;
+  margin-right:-1rem;
   z-index: 1;
+}
+
+.header__title{
+  display: flex;
+  justify-content: space-around;
 }
 
 /* debut footer */

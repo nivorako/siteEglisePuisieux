@@ -1,5 +1,5 @@
 import React from 'react'
-import  '../components/css/acceuil.css'
+import  '../components/css/home.css'
 
 function Acceuil() {
     return (
